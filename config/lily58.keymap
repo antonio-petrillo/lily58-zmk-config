@@ -54,11 +54,11 @@
 
         keypad {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                             &trans  &kp KP_NUMBER_7       &kp KP_N8  &kp KP_N9              &kp PLUS         &trans
-&trans  &trans  &trans  &trans  &trans  &trans                             &trans  &kp KP_N4             &kp KP_N5  &kp KP_N6              &kp KP_MULTIPLY  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                             &trans  &kp KP_N1             &kp KP_N2  &kp KP_N3              &kp MINUS        &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp LOCKING_NUM  &trans  &kp LEFT_PARENTHESIS  &kp KP_N0  &kp RIGHT_PARENTHESIS  &kp KP_DIVIDE    &trans
-                        &trans  &trans  &trans  &trans    &trans           &trans  &trans                &trans
+&trans  &trans  &trans  &trans  &trans  &trans                            &trans  &kp KP_NUMBER_7       &kp KP_N8  &kp KP_N9              &kp PLUS         &trans
+&trans  &trans  &trans  &trans  &trans  &trans                            &trans  &kp KP_N4             &kp KP_N5  &kp KP_N6              &kp KP_MULTIPLY  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                            &trans  &kp KP_N1             &kp KP_N2  &kp KP_N3              &kp MINUS        &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp KP_NUMLOCK  &trans  &kp LEFT_PARENTHESIS  &kp KP_N0  &kp RIGHT_PARENTHESIS  &kp KP_DIVIDE    &trans
+                        &trans  &trans  &trans  &trans    &trans          &trans  &trans                &trans
             >;
         };
     };
